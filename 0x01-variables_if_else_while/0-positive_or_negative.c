@@ -4,23 +4,23 @@
 /**
 *main-Entry point
 *
-*Return:always 0.
+*Return:always 0(Success)
 */
 int main(void)
 int n;
-printf("please enter your number: ");
-scanf("%d", &n );
+srand(time(0));
+n=rand()-RAND_MAX/2;
 if(n > 0)
 {
-print("the number is positive"\n,n);
+print("%d is positive\n", n);
 }
 else if(n==0)
 {
-printf("the  number is zero"\n,n);
+printf("%d is zero\n", n);
 }
 else
 {
-printf("the number is negative"\n,n);
+printf("%d is negative\n", n);
 }
 return 0;
 }
