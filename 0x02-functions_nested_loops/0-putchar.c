@@ -5,7 +5,7 @@
 *Description:Function prototype
 *Return:Always 0 (Sucsess)
 */
-int main (void)
+int main(void)
 {
 char str[8] = "_putchar";
 int i = 0;
