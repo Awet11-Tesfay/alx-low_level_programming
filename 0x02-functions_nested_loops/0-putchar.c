@@ -1,19 +1,19 @@
-#include "main.h"
-/**                                                                            
-*main-Starting point
+#include"main.h"
+/**
+**main-Starting point
 *
 *Description:Function prototype
 *Return:Always 0(Sucsess)
-*/                                                               
-int main(void)                                                              
+*/
+int main(void)
 {
 char str[8] = "_putchar";
 int i = 0;
 while(i < 8)
-{	
-_putchar(str[i]);                                                               
+{
+_putchar(str[i]);
 ++i;
 }
-_putchar('\n');                                          
+_putchar('\n');
 return (0);
 }
