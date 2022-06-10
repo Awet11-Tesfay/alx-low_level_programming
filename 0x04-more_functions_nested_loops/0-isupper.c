@@ -3,14 +3,12 @@
 
 
 /**
- *
- *  * _isupper - main entry.
- *
- *   * @c: Integer to be checked.
- *
- *    * Return: 1 if c is uppercase, 0 otherwise.
- *
- *     */
+ * _isupper - main entry.
+ 
+ * @c: Integer to be checked.
+ 
+ * Return: 1 if c is uppercase, 0 otherwise      
+ */
 
 
 
