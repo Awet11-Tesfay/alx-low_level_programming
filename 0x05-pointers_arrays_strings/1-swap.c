@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * swap_list-swap the value of  two integers
+ * swap_int-swap the value of  two integers
  * using two input parameters
  *
  * @a:tnput parameter 1
