@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * rev_string -starting point
- * Description reversing
- * @s: input 
- * Return: string
+ *rev_string-starting point
+ *Description reversing
+ *@s:input 
+ *Return:string
  */
 void rev_string(char *s)
 {
