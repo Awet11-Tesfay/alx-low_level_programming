@@ -1,16 +1,18 @@
 #include <stdio.h>
 
 /**
- * swap_list-swaps the value of two integers
+ * swap_list-swap the value of  two integers
  * using two input parameters
- * @a:input parameter 1
+ * @a:tnput parameter 1
  * @b:input parameter 2
+ *
  * Return:Nothing
  */
-void swap_int(int *a, int *b
+void swap_int(int *a, int *b)
 {
-int temp;
-temmp = *a;
-*a = *b;
-*b = temp;
+	int temp;
+
+	temp = *a;
+	*a = *b;
+	*b = temp;
 }
