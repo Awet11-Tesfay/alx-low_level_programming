@@ -1,11 +1,10 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * puts2 -Starting point
  * Description: display
- *  @str: input
- *  Return: display
+ * @str: input
+ * Return: display
  */
 void puts2(char *str)
 {
@@ -14,11 +13,13 @@ void puts2(char *str)
 	for (j = 0; str[j] != '\0'; j++)
 	{
 		if ((j % 2) == 0)
+		{
 			_putchar(str[j]);
-	}
-	else
-	{
-		continue;
+		}
+		else
+		{
+			continue;
+		}
 	}
 	_putchar('\n');
 }
