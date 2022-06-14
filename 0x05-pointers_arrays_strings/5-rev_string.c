@@ -1,7 +1,7 @@
 #include"main.h" 
 #include<stdio.h>
 /**
- * rev_string-starting point
+ *rev_string-starting point
  *Description:reversing
  *@s:input
  *Return:string
