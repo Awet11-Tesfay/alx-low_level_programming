@@ -21,15 +21,16 @@ char *rot13(char *str)
 		              'T', 'U', 'V', 'W', 'X', 'Y',
 			      'Z', 'A', 'B', 'C', 'D', 'E',
 			      'F', 'G', 'H', 'I', 'J', 'K',
-			       'L', 'M', 'n', 'o', 'p', 'q',
-			       'r', 's', 't', 'u', 'v', 'w',
-			       'x', 'y', 'z', 'a', 'b', 'c',
-			       'd', 'e', 'f', 'g', 'h', 'i',
-			       'j', 'k', 'l', 'm'};
+			      'L', 'M', 'n', 'o', 'p', 'q',
+			      'r', 's', 't', 'u', 'v', 'w',
+			      'x', 'y', 'z', 'a', 'b', 'c',
+			      'd', 'e', 'f', 'g', 'h', 'i',
+			      'j', 'k', 'l', 'm'};
 
 	while (str[indx1])
 	{
 		for (indx2 = 0; indx2 < 52; indx2++)
+		{
 			if (str[indx1] == alphabet[indx2])
 			{
 				str[indx1] = rot13key[indx2];
@@ -38,6 +39,7 @@ char *rot13(char *str)
 	}
 
 	indx1++;
+	}
 
 	return (str);
 }
