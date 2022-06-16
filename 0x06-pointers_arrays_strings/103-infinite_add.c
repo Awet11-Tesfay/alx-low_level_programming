@@ -13,8 +13,8 @@ char *infinite_add(char *n1, char *n2, char *r, int n)
 	int len1 = 0, len2 = 0;
 	int add = 0;
 	int i = n - 2;
-
-
+	
+	
 	while (n1[len1 + 1] != 0)
 		len1++;
 	while (n2[len2 + 1] != 0)
@@ -34,7 +34,8 @@ char *infinite_add(char *n1, char *n2, char *r, int n)
 
 	if ((i < len1 || i < len2) || (i < 0 && add))
 
-				return (0);
+		  return (0);
+
 	add ? r[i] = add + '0' : 1;
 	i += add ? 0 : 1;
 
