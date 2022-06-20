@@ -17,3 +17,4 @@ _putchar(a[b][c]);
 }
 _putchar('\n');
 }
+}
