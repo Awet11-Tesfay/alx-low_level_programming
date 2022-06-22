@@ -26,7 +26,7 @@ if (sqrt > n)
 return (-1);
 
 if (sqrt == n)
-return (i);
+if (sqrt == n)
 
 return (_sqrt(n, i + 1));
 }
