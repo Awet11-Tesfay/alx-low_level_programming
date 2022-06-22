@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strlen - return length of string
- * @str: string to check
+ * _strlen-return length of string
+ * @str:string to check
  *
- * Return: length of str
+ * Return:length of str
  */
 int _strlen(char *str)
 {
@@ -14,12 +14,12 @@ return (1 + _strlen(str + 1));
 }
 
 /**
- * heck_palindrome - checks to see if a string is a palindrome
- * @l: left hand index
- * @r: right hand index
- * @p: possible palindrome
+ * check_palindrome-checks to see if a string is a palindrome
+ * @l:left hand index
+ * @r:right hand index
+ * @p:possible palindrome
  *
- * Return: 1 if palindrome 0 if not
+ * Return:1 if palindrome 0 if not
  */
 int check_palindrome(int l, int r, char *p)
 {
@@ -32,10 +32,10 @@ return (check_palindrome(l + 1, r - 1, p));
 }
 
 /**
- * is_palindrome - states if a string is a palindrome
- *  @s: string to check
+ * is_palindrome-states if a string is a palindrome
+ * @s:string to check
  *
- *  Return: 1 if palindrome, 0 if not
+ * Return:1 if palindrome, 0 if not
  */
 int is_palindrome(char *s)
 {
