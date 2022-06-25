@@ -18,6 +18,7 @@ char *ptr;
 if (argc < 2)
 printf("0\n");
 else
+{
 sum = 0;
 for (i = 1; i < argc; i++)
 {
