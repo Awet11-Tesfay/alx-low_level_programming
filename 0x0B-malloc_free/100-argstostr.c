@@ -42,5 +42,5 @@ p[k] = '\n';
 k++;
 }
 p[k] = '\0';
-return (p)
+return (p);
 }
