@@ -17,7 +17,7 @@ int n2;
 int count;
 
 count = 0;
-if (s1 == NULL)
+if (s1 == NULL
 s1 = "";
 if (s2 == NULL)
 s2 = "";
@@ -39,4 +39,3 @@ count++;
 }
 return (strnew);
 }
-
