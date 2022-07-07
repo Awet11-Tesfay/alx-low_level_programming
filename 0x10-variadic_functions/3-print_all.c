@@ -48,11 +48,11 @@ printf("(nil)");
 void print_all(const char * const format, ...)
 {
 format_t type[] = {
-"c", print_char},
-{"i", print_int},
-{"f", print_float},
-{"s", print_string},
-{NULL, NULL}
+			"c", print_char},
+			{"i", print_int},
+			{"f", print_float},
+			{"s", print_string},
+			{NULL, NULL}
 };
 
 va_list args;
