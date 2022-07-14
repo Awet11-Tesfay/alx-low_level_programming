@@ -23,7 +23,7 @@ return (i);
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
-list_t *new = (list_t *) malloc(sizeof(list_t))
+list_t *new = (list_t *) malloc(sizeof(list_t));
 list_t *end = *head;
 
 if (new == NULL)
@@ -42,11 +42,3 @@ if (end)
 end->next = new;
 return (new);
 }
-
-
-
-
-
-
-
-
