@@ -1,24 +1,22 @@
+#include <stdio.h>
 #include "lists.h"
-
 /**
- * print_list - prints all the elements of a list_t list.
- * @h: pointer to struct.
- *
- * Return:  the number of nodes.
- */
-size_t print_list(const list_t *h)
+ * print_listint - prints all the elements of a listint_t list.
+ * @h: pointer to the list.
+ * Return: number of nodes.
+ **/
+size_t print_listint(const listint_t *h)
 {
-int c = 0;
+const listint_t *linode = h;
+size_t incr = 0;
 
-while (h != NULL)
+while (linode)
 {
-if (h->str == NULL)
-printf("[0] (nil)\n");
-else
-printf("[%d] %s\n", h->len, h->str);
-h = h->next;
-c++;
+printf("%i\n", linode->n);
+incr++;
+linode = linode->next;
 }
-return (c);
+
+return (incr);
 }
 
