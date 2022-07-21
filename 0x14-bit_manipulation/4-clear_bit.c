@@ -13,7 +13,7 @@ unsigned int idx = index;
 if (idx >= (sizeof(unsigned long int) * 8))
 return (-1);
 
-n &= ~(1 << idx);
+*n &= ~(1 << idx);
 
 return (1);
 }
