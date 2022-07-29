@@ -42,8 +42,7 @@ exit(98);
 
 /**
  * print_magic - Prints the magic numbers of an ELF header.
- * @e_ident: A pointer to an array containing the ELF magic numbers.
- *
+ * @e_ident: A pointer to an array containing the ELF magic numbers
  * Description: Magic numbers are separated by spaces.
  */
 void print_magic(unsigned char *e_ident)
@@ -241,7 +240,6 @@ printf("%#lx\n", e_entry);
 /**
  * close_elf - Closes an ELF file.
  * @elf: The file descriptor of the ELF file.
- *
  * Description: If the file cannot be closed - exit code 98.
  */
 void close_elf(int elf)
@@ -257,10 +255,8 @@ exit(98);
 /**
  * main - Displays the information contained in the
  * @argc: The number of arguments supplied to the program.
- *
  * @argv: An array of pointers to the arguments.
  * Return: 0 on success.
- * Description: If the file is not an ELF File
  */
 int main(int __attribute__((__unused__)) argc, char *argv[])
 {
