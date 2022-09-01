@@ -7,7 +7,7 @@
  * @n: is a given number
  * Return: a address of nth node
  */
-listint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
+dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 dlistint_t *new, *headcopy = *h;
 unsigned int i;
@@ -26,6 +26,7 @@ if (idx == 0)
 free(new);
 return (add_dnodeint(h, n));
 }
+
 for (i = 0; (i < idx - 1) && headcopy != NULL; i++)
 headcopy = headcopy->next;
 if (headcopy == NULL)
