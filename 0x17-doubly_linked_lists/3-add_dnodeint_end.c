@@ -32,8 +32,9 @@ else
 while (headcopy->next != NULL)
 headcopy = headcopy->next;
 new->next = NULL;
-ew->prev = headcopy;
+new->prev = headcopy;
 headcopy->next = new;
 }
 return (new);
 }
+
