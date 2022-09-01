@@ -39,7 +39,8 @@ if (headcopy->next == NULL)
 new->next = NULL;
 new->prev = headcopy;
 headcopy->next = new;
-} else
+}
+else
 {
 new->next = headcopy->next;
 new->prev = headcopy;
